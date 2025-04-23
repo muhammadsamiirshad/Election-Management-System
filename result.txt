@@ -1,0 +1,10 @@
+NA-68,10,10,Imran Khan,PTI,5
+NA-68,10,10,Mariam,PMLN,2
+NA-68,10,10,Bilawal,PPP,3
+NA-69,10,8,Shahryar Afridi,PTI,3
+NA-69,10,8,Hamza,PMLN,3
+NA-69,10,8,Asifa Bhotu,PPP,2
+NA-70,10,7,Yasmin Rashid,PTI,3
+NA-70,10,7,Shahbaz Shareef,PMLN,2
+NA-70,10,7,Asif Zardari,PPP,2
+NA-09,1,0,IMRAN KHAN,PTI,0

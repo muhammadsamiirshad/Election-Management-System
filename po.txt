@@ -1,0 +1,6 @@
+Tayyab,21,234543,m,phali,NA-68,tayyab,123
+Sami,20,3456,M,Ksk,NA-69,sami,123
+Shahzaib,20,7654,M,ksk,NA-70,shazi,123
+saeed afridi,19,12345,m,lahore,okara,qwert,1234
+elliot,19,33333,male,lahore,NA-09,elliot,1234
+sami,18,353011122345,male,lhore,,ss,1122
