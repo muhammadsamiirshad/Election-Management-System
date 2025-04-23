@@ -1,29 +1,22 @@
 # Election Management System
 
-<div align="center">
-  <img src="UML.jpeg" alt="Election Management System UML" width="600">
-</div>
-
 ## 📋 Overview
 
-The Election Management System is a comprehensive C++ console application designed to digitally manage and automate the entire electoral process. This system facilitates a secure, transparent, and efficient voting experience while providing robust administration tools for election officials.
+The Election Management System is a comprehensive C++ console application designed to digitally manage and automate the entire electoral process. Developed as an Object-Oriented Programming semester project, this system facilitates a secure, transparent, and efficient voting experience while providing robust administration tools for election officials.
 
 ## ✨ Features
 
 ### 🔐 Multi-level Access Control
 
 - **Election Commission Admin Panel**
-
   - Manage presiding officers
   - Control election lifecycle (start voting, announce results)
   - Oversee the entire electoral process
 - **Presiding Officer Portal**
-
   - Manage candidates and voters in assigned regions
   - Update candidate and voter information
   - View regional statistics and data
 - **Voter Interface**
-
   - Secure login using CNIC
   - View available candidates in voter's region
   - Cast vote securely and privately
@@ -31,12 +24,10 @@ The Election Management System is a comprehensive C++ console application design
 ### 📊 Advanced Electoral Features
 
 - **Regional Voting Management**
-
   - Region-specific candidate lists
   - Customized ballot displays for each region
   - Regional vote tallying and statistics
 - **Real-time Statistics**
-
   - Track registered voters vs. votes cast
   - Display party-wise and candidate-wise results
   - Generate comprehensive election reports
@@ -47,6 +38,28 @@ The Election Management System is a comprehensive C++ console application design
 - CNIC verification for voters
 - Prevention of double voting
 - Audit trails for system actions
+
+## 🔄 System Flow
+
+1. **System Initialization**:
+   - Admin logs in with credentials
+   - Sets up election parameters and regions
+
+2. **Pre-Election Setup**:
+   - Admin creates presiding officers for different regions
+   - Presiding officers register candidates and voters
+
+3. **Election Day**:
+   - Admin initiates the voting process
+   - Voters authenticate with CNIC
+   - System presents region-specific ballot
+   - Voters cast votes securely
+
+4. **Post-Election Process**:
+   - Admin closes the voting process
+   - System tallies votes automatically
+   - Results are generated and displayed
+   - Statistics are stored for future reference
 
 ## 🏗️ System Architecture
 
@@ -101,11 +114,9 @@ The Election Management System is a comprehensive C++ console application design
 ### Default Credentials
 
 - **Admin Access**:
-
   - Username: admin
   - Password: 1234
 - **Sample Presiding Officer Credentials**:
-
   - Username: tayyab, Password: 123 (Region: NA-68)
   - Username: sami, Password: 123 (Region: NA-69)
   - Username: shazi, Password: 123 (Region: NA-70)
@@ -117,7 +128,6 @@ The Election Management System is a comprehensive C++ console application design
 - **voter.txt**: Storage for voter data (name, age, CNIC, gender, address, region, voting status)
 - **po.txt**: Storage for presiding officer information (name, age, CNIC, gender, address, region, username, password)
 - **result.txt**: Storage for election results (region, registered votes, cast votes, candidate, party, vote count)
-- **UML.jpeg**: System architecture diagram showing class relationships
 
 ## 🛠️ Implementation Details
 
@@ -157,17 +167,14 @@ The Election Management System is a comprehensive C++ console application design
 ## ⚙️ How It Works
 
 1. **Election Setup**:
-
    - Admin creates presiding officers for different regions
    - Presiding officers add candidates and register voters in their regions
 2. **Voting Process**:
-
    - Admin starts the polling process
    - Voters log in using their CNIC
    - Voters see candidates from their region and cast their vote
    - System prevents double voting
 3. **Results Announcement**:
-
    - Admin announces results when polling is complete
    - System displays comprehensive results by region and party
    - Results can be viewed by all users
@@ -182,7 +189,7 @@ The system comes pre-loaded with sample data including:
 
 ## 📝 License
 
-This project is available for educational purposes. Feel free to modify and extend it while providing appropriate attribution.
+This project is licensed under the MIT License. For details, see the [LICENSE](LICENSE) file in the repository.
 
 ## 👨‍💻 Contributors
 
@@ -192,5 +199,5 @@ This project is available for educational purposes. Feel free to modify and exte
 
 <div align="center">
   <p>© 2025 Election Management System</p>
-  <p>A C++ Object-Oriented Programming Project</p>
+  <p>A C++ Object-Oriented Programming Semester Project</p>
 </div>
